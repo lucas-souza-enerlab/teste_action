@@ -2,13 +2,13 @@
     "master": {
       "slaves": [
         {
-          "host": "modbus_emulator",
-          "port": 666,
+          "host": "luccc",
+          "port": 777,
           "type": "tcp",
           "method": "socket",
           "timeout": 35,
           "byteOrder": "BIG",
-          "wordOrder": "poha",
+          "wordOrder": "carambolas",
           "retries": true,
           "retryOnEmpty": true,
           "retryOnInvalid": true,
