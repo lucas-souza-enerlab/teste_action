@@ -33,7 +33,7 @@ def update_connector(token, device_id, connector_name, connector_json):
 def infer_from_path(path):
     p = pathlib.Path(path)
     gateway_name = p.parent.name                       # .../GW-SCIESP-2/modbus-1.json
-    connector_name = p.stem.upper()                    # modbus-1.json -> MODBUS-1
+    connector_name = p.stem                    # modbus-1.json -> MODBUS-1
     with open(path, "r") as f:
         connector_json = json.load(f)                  # conteúdo do arquivo é só o bloco do conector
     return gateway_name, connector_name, connector_json
