@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - "**/*.json"         # dispara quando json mudar
+      - "***/*.json"         # dispara quando json mudar
   workflow_dispatch:         # permite rodar manualmente
 
 jobs:
