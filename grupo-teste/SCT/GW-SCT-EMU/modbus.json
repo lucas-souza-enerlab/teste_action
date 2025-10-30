@@ -3,7 +3,7 @@
       "slaves": [
         {
           "host": "modbus_emulator",
-          "port": 502,
+          "port": 444,
           "type": "tcp",
           "method": "socket",
           "timeout": 35,
@@ -15,7 +15,7 @@
           "pollPeriod": 60000,
           "unitId": 1,
           "deviceName": "SCT_EMU_CWP_EM1",
-          "deviceType": "Store Energy Meter",
+          "deviceType": "porra Energy Meter",
           "connectAttemptTimeMs": 5000,
           "connectAttemptCount": 3,
           "waitAfterFailedAttemptsMs": 30000,
