@@ -3,12 +3,12 @@
       "slaves": [
         {
           "host": "modbus_emulator",
-          "port": 444,
+          "port": 666,
           "type": "tcp",
           "method": "socket",
           "timeout": 35,
           "byteOrder": "BIG",
-          "wordOrder": "testando",
+          "wordOrder": "poha",
           "retries": true,
           "retryOnEmpty": true,
           "retryOnInvalid": true,
