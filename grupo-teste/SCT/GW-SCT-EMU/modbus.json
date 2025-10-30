@@ -8,7 +8,7 @@
           "method": "socket",
           "timeout": 35,
           "byteOrder": "BIG",
-          "wordOrder": "BIG",
+          "wordOrder": "testando",
           "retries": true,
           "retryOnEmpty": true,
           "retryOnInvalid": true,
